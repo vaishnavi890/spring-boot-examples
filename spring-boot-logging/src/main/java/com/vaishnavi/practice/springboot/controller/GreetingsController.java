@@ -1,6 +1,6 @@
 package com.vaishnavi.practice.springboot.controller;
 
-import com.vaishnavi.practice.springboot.services.GreetingsService;
+import com.vaishnavi.practice.springboot.service.GreetingsService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,0 +1,266 @@
+23-04-2025 18:14:19.445 [main] TRACE o.s.c.i.s.SpringFactoriesLoader.load - Loaded [org.springframework.boot.BootstrapRegistryInitializer] names: []
+23-04-2025 18:14:19.449 [main] TRACE o.s.c.i.s.SpringFactoriesLoader.load - Loaded [org.springframework.context.ApplicationContextInitializer] names: [org.springframework.boot.context.ConfigurationWarningsApplicationContextInitializer, org.springframework.boot.context.ContextIdApplicationContextInitializer, org.springframework.boot.context.config.DelegatingApplicationContextInitializer, org.springframework.boot.rsocket.context.RSocketPortInfoApplicationContextInitializer, org.springframework.boot.web.context.ServerPortInfoApplicationContextInitializer, org.springframework.boot.autoconfigure.SharedMetadataReaderFactoryContextInitializer, org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener]
+23-04-2025 18:14:19.489 [main] TRACE o.s.c.i.s.SpringFactoriesLoader.load - Loaded [org.springframework.context.ApplicationListener] names: [org.springframework.boot.ClearCachesApplicationListener, org.springframework.boot.builder.ParentContextCloserApplicationListener, org.springframework.boot.context.FileEncodingApplicationListener, org.springframework.boot.context.config.AnsiOutputApplicationListener, org.springframework.boot.context.config.DelegatingApplicationListener, org.springframework.boot.context.logging.LoggingApplicationListener, org.springframework.boot.env.EnvironmentPostProcessorApplicationListener, org.springframework.boot.autoconfigure.BackgroundPreinitializer]
+23-04-2025 18:14:19.541 [main] TRACE o.s.c.i.s.SpringFactoriesLoader.load - Loaded [org.springframework.boot.SpringApplicationRunListener] names: [org.springframework.boot.context.event.EventPublishingRunListener]
+23-04-2025 18:14:19.563 [main] TRACE o.s.c.i.s.SpringFactoriesLoader.load - Loaded [org.springframework.boot.logging.LoggingSystemFactory] names: [org.springframework.boot.logging.logback.LogbackLoggingSystem.Factory, org.springframework.boot.logging.log4j2.Log4J2LoggingSystem.Factory, org.springframework.boot.logging.java.JavaLoggingSystem.Factory]
+23-04-2025 18:14:19.997 [main] TRACE o.s.c.i.s.SpringFactoriesLoader.load - Loaded [org.springframework.boot.ApplicationContextFactory] names: [org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContextFactory, org.springframework.boot.web.servlet.context.ServletWebServerApplicationContextFactory]
+23-04-2025 18:14:20.013 [main] TRACE o.s.c.i.s.SpringFactoriesLoader.load - Loaded [org.springframework.boot.ApplicationContextFactory] names: [org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContextFactory, org.springframework.boot.web.servlet.context.ServletWebServerApplicationContextFactory]
+23-04-2025 18:14:20.129 [main] TRACE o.s.c.a.ClassPathBeanDefinitionScanner.registerDefaultFilters - JSR-250 'jakarta.annotation.ManagedBean' found and supported for component scanning
+23-04-2025 18:14:20.152 [main] INFO  c.v.p.s.SpringBootLoggingApplication.logStarting - Starting SpringBootLoggingApplication using Java 23.0.2 with PID 17008 (C:\Users\lenovo\Desktop\spring-boot-examples\spring-boot-logging\target\classes started by lenovo in C:\Users\lenovo\Desktop\spring-boot-examples\spring-boot-logging)
+23-04-2025 18:14:20.154 [main] DEBUG c.v.p.s.SpringBootLoggingApplication.logStarting - Running with Spring Boot v3.3.3, Spring v6.1.12
+23-04-2025 18:14:20.156 [main] INFO  c.v.p.s.SpringBootLoggingApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+23-04-2025 18:14:20.157 [main] DEBUG o.s.boot.SpringApplication.load - Loading source class com.vaishnavi.practice.springboot.SpringBootLoggingApplication
+23-04-2025 18:14:20.176 [main] TRACE o.s.c.a.ClassPathBeanDefinitionScanner.registerDefaultFilters - JSR-250 'jakarta.annotation.ManagedBean' found and supported for component scanning
+23-04-2025 18:14:20.192 [main] TRACE o.s.b.e.RandomValuePropertySourceEnvironmentPostProcessor.logTo - RandomValuePropertySource add to Environment
+23-04-2025 18:14:20.193 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentPostProcessor.logTo - Post-processing environment to add config data
+23-04-2025 18:14:20.193 [main] TRACE o.s.b.c.config.ConfigDataEnvironment.logTo - Building config data environment contributors
+23-04-2025 18:14:20.193 [main] TRACE o.s.b.c.config.ConfigDataEnvironment.logTo - Creating wrapped config data contributor for 'configurationProperties'
+23-04-2025 18:14:20.195 [main] TRACE o.s.b.c.config.ConfigDataEnvironment.logTo - Creating wrapped config data contributor for 'servletConfigInitParams'
+23-04-2025 18:14:20.195 [main] TRACE o.s.b.c.config.ConfigDataEnvironment.logTo - Creating wrapped config data contributor for 'servletContextInitParams'
+23-04-2025 18:14:20.195 [main] TRACE o.s.b.c.config.ConfigDataEnvironment.logTo - Creating wrapped config data contributor for 'systemProperties'
+23-04-2025 18:14:20.195 [main] TRACE o.s.b.c.config.ConfigDataEnvironment.logTo - Creating wrapped config data contributor for 'systemEnvironment'
+23-04-2025 18:14:20.196 [main] TRACE o.s.b.c.config.ConfigDataEnvironment.logTo - Creating wrapped config data contributor for 'random'
+23-04-2025 18:14:20.196 [main] TRACE o.s.b.c.config.ConfigDataEnvironment.logTo - Adding initial config data import from location 'optional:file:./;optional:file:./config/;optional:file:./config/*/'
+23-04-2025 18:14:20.197 [main] TRACE o.s.b.c.config.ConfigDataEnvironment.logTo - Adding initial config data import from location 'optional:classpath:/;optional:classpath:/config/'
+23-04-2025 18:14:20.197 [main] TRACE o.s.b.c.config.ConfigDataEnvironment.logTo - Processing initial config data environment contributors without activation context
+23-04-2025 18:14:20.197 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors.logTo - Processing imports for phase BEFORE_PROFILE_ACTIVATION. no activation context
+23-04-2025 18:14:20.198 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors.logTo - Processing imports [optional:file:./;optional:file:./config/;optional:file:./config/*/]
+23-04-2025 18:14:20.198 [main] TRACE o.s.b.c.c.StandardConfigDataLocationResolver.logTo - Skipping missing resource file:./application.yaml
+23-04-2025 18:14:20.198 [main] TRACE o.s.b.c.c.StandardConfigDataLocationResolver.logTo - Skipping missing resource file:./application.yml
+23-04-2025 18:14:20.198 [main] TRACE o.s.b.c.c.StandardConfigDataLocationResolver.logTo - Skipping missing resource file:./application.xml
+23-04-2025 18:14:20.199 [main] TRACE o.s.b.c.c.StandardConfigDataLocationResolver.logTo - Skipping missing resource file:./application.properties
+23-04-2025 18:14:20.200 [main] TRACE o.s.b.c.c.StandardConfigDataLocationResolver.logTo - Skipping missing resource file:./config/application.yaml
+23-04-2025 18:14:20.200 [main] TRACE o.s.b.c.c.StandardConfigDataLocationResolver.logTo - Skipping missing resource file:./config/application.yml
+23-04-2025 18:14:20.200 [main] TRACE o.s.b.c.c.StandardConfigDataLocationResolver.logTo - Skipping missing resource file:./config/application.xml
+23-04-2025 18:14:20.201 [main] TRACE o.s.b.c.c.StandardConfigDataLocationResolver.logTo - Skipping missing resource file:./config/application.properties
+23-04-2025 18:14:20.202 [main] TRACE o.s.b.c.config.ConfigDataImporter.logTo - Considering resource file [.] from location optional:file:./;optional:file:./config/;optional:file:./config/*/
+23-04-2025 18:14:20.204 [main] TRACE o.s.b.c.config.ConfigDataLoaders.logTo - Loading file [.] using loader org.springframework.boot.context.config.StandardConfigDataLoader
+23-04-2025 18:14:20.205 [main] TRACE o.s.b.c.config.ConfigDataImporter.logTo - Loaded resource file [.] from location optional:file:./;optional:file:./config/;optional:file:./config/*/
+23-04-2025 18:14:20.211 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors.logTo - Imported 1 resource [file [.]]
+23-04-2025 18:14:20.212 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors.logTo - Processing imports [optional:classpath:/;optional:classpath:/config/]
+23-04-2025 18:14:20.212 [main] TRACE o.s.b.c.c.StandardConfigDataLocationResolver.logTo - Skipping missing resource classpath:/application.yaml
+23-04-2025 18:14:20.212 [main] TRACE o.s.b.c.c.StandardConfigDataLocationResolver.logTo - Skipping missing resource classpath:/application.yml
+23-04-2025 18:14:20.213 [main] TRACE o.s.b.c.c.StandardConfigDataLocationResolver.logTo - Skipping missing resource classpath:/application.xml
+23-04-2025 18:14:20.213 [main] TRACE o.s.b.c.c.StandardConfigDataLocationResolver.logTo - Skipping missing resource classpath:/application.properties
+23-04-2025 18:14:20.213 [main] TRACE o.s.b.c.c.StandardConfigDataLocationResolver.logTo - Skipping missing resource classpath:/config/application.yaml
+23-04-2025 18:14:20.213 [main] TRACE o.s.b.c.c.StandardConfigDataLocationResolver.logTo - Skipping missing resource classpath:/config/application.yml
+23-04-2025 18:14:20.213 [main] TRACE o.s.b.c.c.StandardConfigDataLocationResolver.logTo - Skipping missing resource classpath:/config/application.xml
+23-04-2025 18:14:20.214 [main] TRACE o.s.b.c.c.StandardConfigDataLocationResolver.logTo - Skipping missing resource classpath:/config/application.properties
+23-04-2025 18:14:20.214 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors.logTo - Nothing imported
+23-04-2025 18:14:20.214 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors.logTo - Processed imports for of 2 contributors
+23-04-2025 18:14:20.215 [main] TRACE o.s.b.c.config.ConfigDataEnvironment.logTo - Creating config data activation context from initial contributions
+23-04-2025 18:14:20.215 [main] TRACE o.s.b.c.config.ConfigDataEnvironment.logTo - Processing config data environment contributors with initial activation context
+23-04-2025 18:14:20.218 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors.logTo - Processing imports for phase BEFORE_PROFILE_ACTIVATION. [ConfigDataActivationContext@55562aa9 cloudPlatform = [null], profiles = [null]]
+23-04-2025 18:14:20.219 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors.logTo - Processed imports for of 0 contributors
+23-04-2025 18:14:20.219 [main] TRACE o.s.b.c.config.ConfigDataEnvironment.logTo - Deducing profiles from current config data environment contributors
+23-04-2025 18:14:20.220 [main] TRACE o.s.b.c.config.ConfigDataEnvironment.logTo - Processing config data environment contributors with profile activation context
+23-04-2025 18:14:20.220 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors.logTo - Processing imports for phase AFTER_PROFILE_ACTIVATION. [ConfigDataActivationContext@655ef322 cloudPlatform = [null], profiles = [Profiles@7e276594 active = '[]', default = '[default]', accepted = '[default]']]
+23-04-2025 18:14:20.221 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors.logTo - Processing imports [optional:file:./;optional:file:./config/;optional:file:./config/*/]
+23-04-2025 18:14:20.222 [main] TRACE o.s.b.c.c.StandardConfigDataLocationResolver.logTo - Skipping missing resource file:./application.yaml
+23-04-2025 18:14:20.223 [main] TRACE o.s.b.c.c.StandardConfigDataLocationResolver.logTo - Skipping missing resource file:./application.yml
+23-04-2025 18:14:20.224 [main] TRACE o.s.b.c.c.StandardConfigDataLocationResolver.logTo - Skipping missing resource file:./application.xml
+23-04-2025 18:14:20.224 [main] TRACE o.s.b.c.c.StandardConfigDataLocationResolver.logTo - Skipping missing resource file:./application.properties
+23-04-2025 18:14:20.224 [main] TRACE o.s.b.c.c.StandardConfigDataLocationResolver.logTo - Skipping missing resource file:./config/application.yaml
+23-04-2025 18:14:20.226 [main] TRACE o.s.b.c.c.StandardConfigDataLocationResolver.logTo - Skipping missing resource file:./config/application.yml
+23-04-2025 18:14:20.226 [main] TRACE o.s.b.c.c.StandardConfigDataLocationResolver.logTo - Skipping missing resource file:./config/application.xml
+23-04-2025 18:14:20.226 [main] TRACE o.s.b.c.c.StandardConfigDataLocationResolver.logTo - Skipping missing resource file:./config/application.properties
+23-04-2025 18:14:20.226 [main] TRACE o.s.b.c.c.StandardConfigDataLocationResolver.logTo - Skipping missing resource file:./application-default.yaml
+23-04-2025 18:14:20.227 [main] TRACE o.s.b.c.c.StandardConfigDataLocationResolver.logTo - Skipping missing resource file:./application-default.yml
+23-04-2025 18:14:20.227 [main] TRACE o.s.b.c.c.StandardConfigDataLocationResolver.logTo - Skipping missing resource file:./application-default.xml
+23-04-2025 18:14:20.228 [main] TRACE o.s.b.c.c.StandardConfigDataLocationResolver.logTo - Skipping missing resource file:./application-default.properties
+23-04-2025 18:14:20.228 [main] TRACE o.s.b.c.c.StandardConfigDataLocationResolver.logTo - Skipping missing resource file:./config/application-default.yaml
+23-04-2025 18:14:20.228 [main] TRACE o.s.b.c.c.StandardConfigDataLocationResolver.logTo - Skipping missing resource file:./config/application-default.yml
+23-04-2025 18:14:20.229 [main] TRACE o.s.b.c.c.StandardConfigDataLocationResolver.logTo - Skipping missing resource file:./config/application-default.xml
+23-04-2025 18:14:20.229 [main] TRACE o.s.b.c.c.StandardConfigDataLocationResolver.logTo - Skipping missing resource file:./config/application-default.properties
+23-04-2025 18:14:20.230 [main] TRACE o.s.b.c.config.ConfigDataImporter.logTo - Considering resource file [.] from location optional:file:./;optional:file:./config/;optional:file:./config/*/
+23-04-2025 18:14:20.230 [main] TRACE o.s.b.c.config.ConfigDataImporter.logTo - Already loaded resource file [.] ignoring location optional:file:./;optional:file:./config/;optional:file:./config/*/
+23-04-2025 18:14:20.230 [main] TRACE o.s.b.c.config.ConfigDataImporter.logTo - Considering resource file [.] from location optional:file:./;optional:file:./config/;optional:file:./config/*/
+23-04-2025 18:14:20.232 [main] TRACE o.s.b.c.config.ConfigDataImporter.logTo - Already loaded resource file [.] ignoring location optional:file:./;optional:file:./config/;optional:file:./config/*/
+23-04-2025 18:14:20.232 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors.logTo - Nothing imported
+23-04-2025 18:14:20.232 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors.logTo - Processing imports [optional:classpath:/;optional:classpath:/config/]
+23-04-2025 18:14:20.232 [main] TRACE o.s.b.c.c.StandardConfigDataLocationResolver.logTo - Skipping missing resource classpath:/application.yaml
+23-04-2025 18:14:20.233 [main] TRACE o.s.b.c.c.StandardConfigDataLocationResolver.logTo - Skipping missing resource classpath:/application.yml
+23-04-2025 18:14:20.233 [main] TRACE o.s.b.c.c.StandardConfigDataLocationResolver.logTo - Skipping missing resource classpath:/application.xml
+23-04-2025 18:14:20.233 [main] TRACE o.s.b.c.c.StandardConfigDataLocationResolver.logTo - Skipping missing resource classpath:/application.properties
+23-04-2025 18:14:20.233 [main] TRACE o.s.b.c.c.StandardConfigDataLocationResolver.logTo - Skipping missing resource classpath:/config/application.yaml
+23-04-2025 18:14:20.234 [main] TRACE o.s.b.c.c.StandardConfigDataLocationResolver.logTo - Skipping missing resource classpath:/config/application.yml
+23-04-2025 18:14:20.234 [main] TRACE o.s.b.c.c.StandardConfigDataLocationResolver.logTo - Skipping missing resource classpath:/config/application.xml
+23-04-2025 18:14:20.234 [main] TRACE o.s.b.c.c.StandardConfigDataLocationResolver.logTo - Skipping missing resource classpath:/config/application.properties
+23-04-2025 18:14:20.234 [main] TRACE o.s.b.c.c.StandardConfigDataLocationResolver.logTo - Skipping missing resource classpath:/application-default.yaml
+23-04-2025 18:14:20.235 [main] TRACE o.s.b.c.c.StandardConfigDataLocationResolver.logTo - Skipping missing resource classpath:/application-default.yml
+23-04-2025 18:14:20.235 [main] TRACE o.s.b.c.c.StandardConfigDataLocationResolver.logTo - Skipping missing resource classpath:/application-default.xml
+23-04-2025 18:14:20.235 [main] TRACE o.s.b.c.c.StandardConfigDataLocationResolver.logTo - Skipping missing resource classpath:/application-default.properties
+23-04-2025 18:14:20.235 [main] TRACE o.s.b.c.c.StandardConfigDataLocationResolver.logTo - Skipping missing resource classpath:/config/application-default.yaml
+23-04-2025 18:14:20.235 [main] TRACE o.s.b.c.c.StandardConfigDataLocationResolver.logTo - Skipping missing resource classpath:/config/application-default.yml
+23-04-2025 18:14:20.236 [main] TRACE o.s.b.c.c.StandardConfigDataLocationResolver.logTo - Skipping missing resource classpath:/config/application-default.xml
+23-04-2025 18:14:20.236 [main] TRACE o.s.b.c.c.StandardConfigDataLocationResolver.logTo - Skipping missing resource classpath:/config/application-default.properties
+23-04-2025 18:14:20.236 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors.logTo - Nothing imported
+23-04-2025 18:14:20.236 [main] TRACE o.s.b.c.c.ConfigDataEnvironmentContributors.logTo - Processed imports for of 2 contributors
+23-04-2025 18:14:20.237 [main] TRACE o.s.b.c.config.ConfigDataEnvironment.logTo - Applying config data environment contributions
+23-04-2025 18:14:20.237 [main] TRACE o.s.b.c.config.ConfigDataEnvironment.logTo - Setting default profiles: [default]
+23-04-2025 18:14:20.237 [main] TRACE o.s.b.c.config.ConfigDataEnvironment.logTo - Setting active profiles: []
+23-04-2025 18:14:20.258 [main] TRACE o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.prepareRefresh - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@648c94da, started on Wed Apr 23 18:14:20 IST 2025
+23-04-2025 18:14:20.278 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory.registerScope - Registering scope 'request' with implementation [org.springframework.web.context.request.RequestScope@33aeca0b]
+23-04-2025 18:14:20.279 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory.registerScope - Registering scope 'session' with implementation [org.springframework.web.context.request.SessionScope@e98770d]
+23-04-2025 18:14:20.299 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory.getSingleton - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+23-04-2025 18:14:20.300 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory.createBean - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+23-04-2025 18:14:20.331 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory.getSingleton - Creating shared instance of singleton bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+23-04-2025 18:14:20.331 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory.createBean - Creating instance of bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+23-04-2025 18:14:20.333 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory.createBean - Finished creating instance of bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory'
+23-04-2025 18:14:20.337 [main] TRACE o.s.c.i.s.SpringFactoriesLoader.load - Loaded [org.springframework.beans.BeanInfoFactory] names: []
+23-04-2025 18:14:20.338 [main] TRACE o.s.beans.CachedIntrospectionResults.<init> - Getting BeanInfo for class [org.springframework.context.annotation.ConfigurationClassPostProcessor]
+23-04-2025 18:14:20.343 [main] TRACE o.s.beans.CachedIntrospectionResults.<init> - Caching PropertyDescriptors for class [org.springframework.context.annotation.ConfigurationClassPostProcessor]
+23-04-2025 18:14:20.344 [main] TRACE o.s.beans.CachedIntrospectionResults.<init> - Found bean property 'applicationStartup' of type [org.springframework.core.metrics.ApplicationStartup]
+23-04-2025 18:14:20.348 [main] TRACE o.s.beans.CachedIntrospectionResults.<init> - Found bean property 'beanClassLoader' of type [java.lang.ClassLoader]
+23-04-2025 18:14:20.348 [main] TRACE o.s.beans.CachedIntrospectionResults.<init> - Found bean property 'beanExcludedFromAotProcessing' of type [boolean]
+23-04-2025 18:14:20.350 [main] TRACE o.s.beans.CachedIntrospectionResults.<init> - Found bean property 'beanNameGenerator' of type [org.springframework.beans.factory.support.BeanNameGenerator]
+23-04-2025 18:14:20.351 [main] TRACE o.s.beans.CachedIntrospectionResults.<init> - Found bean property 'class' of type [java.lang.Class]
+23-04-2025 18:14:20.356 [main] TRACE o.s.beans.CachedIntrospectionResults.<init> - Found bean property 'environment' of type [org.springframework.core.env.Environment]
+23-04-2025 18:14:20.356 [main] TRACE o.s.beans.CachedIntrospectionResults.<init> - Found bean property 'metadataReaderFactory' of type [org.springframework.core.type.classreading.MetadataReaderFactory]
+23-04-2025 18:14:20.356 [main] TRACE o.s.beans.CachedIntrospectionResults.<init> - Found bean property 'order' of type [int]
+23-04-2025 18:14:20.357 [main] TRACE o.s.beans.CachedIntrospectionResults.<init> - Found bean property 'problemReporter' of type [org.springframework.beans.factory.parsing.ProblemReporter]
+23-04-2025 18:14:20.357 [main] TRACE o.s.beans.CachedIntrospectionResults.<init> - Found bean property 'resourceLoader' of type [org.springframework.core.io.ResourceLoader]
+23-04-2025 18:14:20.357 [main] TRACE o.s.beans.CachedIntrospectionResults.<init> - Found bean property 'sourceExtractor' of type [org.springframework.beans.factory.parsing.SourceExtractor]
+23-04-2025 18:14:20.364 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory.createBean - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+23-04-2025 18:14:20.395 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory.getSingleton - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+23-04-2025 18:14:20.395 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory.createBean - Creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+23-04-2025 18:14:20.399 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory.createBean - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+23-04-2025 18:14:20.400 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory.getSingleton - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+23-04-2025 18:14:20.400 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory.createBean - Creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+23-04-2025 18:14:20.401 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory.createBean - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+23-04-2025 18:14:20.405 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory.getSingleton - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+23-04-2025 18:14:20.406 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory.createBean - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+23-04-2025 18:14:20.409 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory.createBean - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+23-04-2025 18:14:20.410 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory.getSingleton - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+23-04-2025 18:14:20.410 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory.createBean - Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+23-04-2025 18:14:20.435 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory.createBean - Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+23-04-2025 18:14:20.443 [main] TRACE o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.initMessageSource - No 'messageSource' bean, using [Empty MessageSource]
+23-04-2025 18:14:20.444 [main] TRACE o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.initApplicationEventMulticaster - No 'applicationEventMulticaster' bean, using [SimpleApplicationEventMulticaster]
+23-04-2025 18:14:20.449 [main] DEBUG o.s.u.c.s.UiApplicationContextUtils.initThemeSource - Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@6f0ca692]
+23-04-2025 18:14:20.457 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server
+23-04-2025 18:14:20.458 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory.destroySingletons - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@788fcafb: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,springBootLoggingApplication,org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory]; root of factory hierarchy
+23-04-2025 18:14:20.460 [main] TRACE o.s.b.f.s.DefaultListableBeanFactory.destroyBean - Retrieved dependent beans for bean 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory': [org.springframework.context.annotation.internalConfigurationAnnotationProcessor]
+23-04-2025 18:14:20.534 [main] TRACE o.s.c.i.s.SpringFactoriesLoader.load - Loaded [org.springframework.boot.SpringBootExceptionReporter] names: [org.springframework.boot.diagnostics.FailureAnalyzers]
+23-04-2025 18:14:20.537 [main] TRACE o.s.c.i.s.SpringFactoriesLoader.load - Loaded [org.springframework.boot.diagnostics.FailureAnalyzer] names: [org.springframework.boot.context.config.ConfigDataNotFoundFailureAnalyzer, org.springframework.boot.context.properties.IncompatibleConfigurationFailureAnalyzer, org.springframework.boot.context.properties.NotConstructorBoundInjectionFailureAnalyzer, org.springframework.boot.diagnostics.analyzer.AotInitializerNotFoundFailureAnalyzer, org.springframework.boot.diagnostics.analyzer.BeanCurrentlyInCreationFailureAnalyzer, org.springframework.boot.diagnostics.analyzer.BeanDefinitionOverrideFailureAnalyzer, org.springframework.boot.diagnostics.analyzer.BeanNotOfRequiredTypeFailureAnalyzer, org.springframework.boot.diagnostics.analyzer.BindFailureAnalyzer, org.springframework.boot.diagnostics.analyzer.BindValidationFailureAnalyzer, org.springframework.boot.diagnostics.analyzer.InvalidConfigurationPropertyNameFailureAnalyzer, org.springframework.boot.diagnostics.analyzer.InvalidConfigurationPropertyValueFailureAnalyzer, org.springframework.boot.diagnostics.analyzer.MissingParameterNamesFailureAnalyzer, org.springframework.boot.diagnostics.analyzer.MutuallyExclusiveConfigurationPropertiesFailureAnalyzer, org.springframework.boot.diagnostics.analyzer.NoSuchMethodFailureAnalyzer, org.springframework.boot.diagnostics.analyzer.NoUniqueBeanDefinitionFailureAnalyzer, org.springframework.boot.diagnostics.analyzer.PatternParseFailureAnalyzer, org.springframework.boot.diagnostics.analyzer.PortInUseFailureAnalyzer, org.springframework.boot.diagnostics.analyzer.UnboundConfigurationPropertyFailureAnalyzer, org.springframework.boot.diagnostics.analyzer.ValidationExceptionFailureAnalyzer, org.springframework.boot.liquibase.LiquibaseChangelogMissingFailureAnalyzer, org.springframework.boot.web.context.MissingWebServerFactoryBeanFailureAnalyzer, org.springframework.boot.web.embedded.tomcat.ConnectorStartFailureAnalyzer, org.springframework.boot.autoconfigure.data.redis.RedisUrlSyntaxFailureAnalyzer, org.springframework.boot.autoconfigure.diagnostics.analyzer.NoSuchBeanDefinitionFailureAnalyzer, org.springframework.boot.autoconfigure.jdbc.DataSourceBeanCreationFailureAnalyzer, org.springframework.boot.autoconfigure.jdbc.HikariDriverConfigurationFailureAnalyzer, org.springframework.boot.autoconfigure.jooq.NoDslContextBeanFailureAnalyzer, org.springframework.boot.autoconfigure.r2dbc.ConnectionFactoryBeanCreationFailureAnalyzer, org.springframework.boot.autoconfigure.r2dbc.MissingR2dbcPoolDependencyFailureAnalyzer, org.springframework.boot.autoconfigure.r2dbc.MultipleConnectionPoolConfigurationsFailureAnalyzer, org.springframework.boot.autoconfigure.r2dbc.NoConnectionFactoryBeanFailureAnalyzer, org.springframework.boot.autoconfigure.ssl.BundleContentNotWatchableFailureAnalyzer, org.springframework.boot.actuate.autoconfigure.health.NoSuchHealthContributorFailureAnalyzer, org.springframework.boot.actuate.autoconfigure.metrics.ValidationFailureAnalyzer]
+23-04-2025 18:14:20.568 [main] TRACE o.s.b.diagnostics.FailureAnalyzers.lambda$logging$1 - Unable to instantiate factory class [org.springframework.boot.diagnostics.analyzer.ValidationExceptionFailureAnalyzer] for factory type [org.springframework.boot.diagnostics.FailureAnalyzer]
+java.lang.NoClassDefFoundError: jakarta/validation/ValidationException
+	at java.base/java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredConstructors(Class.java:3621)
+	at java.base/java.lang.Class.getConstructors(Class.java:2286)
+	at org.springframework.core.io.support.SpringFactoriesLoader$FactoryInstantiator.findConstructor(SpringFactoriesLoader.java:405)
+	at org.springframework.core.io.support.SpringFactoriesLoader$FactoryInstantiator.forClass(SpringFactoriesLoader.java:394)
+	at org.springframework.core.io.support.SpringFactoriesLoader.instantiateFactory(SpringFactoriesLoader.java:227)
+	at org.springframework.core.io.support.SpringFactoriesLoader.load(SpringFactoriesLoader.java:206)
+	at org.springframework.boot.diagnostics.FailureAnalyzers.loadFailureAnalyzers(FailureAnalyzers.java:66)
+	at org.springframework.boot.diagnostics.FailureAnalyzers.<init>(FailureAnalyzers.java:61)
+	at org.springframework.boot.diagnostics.FailureAnalyzers.<init>(FailureAnalyzers.java:55)
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.springframework.core.io.support.SpringFactoriesLoader$FactoryInstantiator.instantiate(SpringFactoriesLoader.java:382)
+	at org.springframework.core.io.support.SpringFactoriesLoader.instantiateFactory(SpringFactoriesLoader.java:228)
+	at org.springframework.core.io.support.SpringFactoriesLoader.load(SpringFactoriesLoader.java:206)
+	at org.springframework.core.io.support.SpringFactoriesLoader.load(SpringFactoriesLoader.java:160)
+	at org.springframework.boot.SpringApplication.getSpringFactoriesInstances(SpringApplication.java:483)
+	at org.springframework.boot.SpringApplication.getExceptionReporters(SpringApplication.java:831)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:814)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.vaishnavi.practice.springboot.SpringBootLoggingApplication.main(SpringBootLoggingApplication.java:15)
+Caused by: java.lang.ClassNotFoundException: jakarta.validation.ValidationException
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:528)
+	... 24 common frames omitted
+23-04-2025 18:14:20.575 [main] TRACE o.s.b.diagnostics.FailureAnalyzers.lambda$logging$1 - Unable to instantiate factory class [org.springframework.boot.liquibase.LiquibaseChangelogMissingFailureAnalyzer] for factory type [org.springframework.boot.diagnostics.FailureAnalyzer]
+java.lang.NoClassDefFoundError: liquibase/exception/ChangeLogParseException
+	at java.base/java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredConstructors(Class.java:3621)
+	at java.base/java.lang.Class.getConstructors(Class.java:2286)
+	at org.springframework.core.io.support.SpringFactoriesLoader$FactoryInstantiator.findConstructor(SpringFactoriesLoader.java:405)
+	at org.springframework.core.io.support.SpringFactoriesLoader$FactoryInstantiator.forClass(SpringFactoriesLoader.java:394)
+	at org.springframework.core.io.support.SpringFactoriesLoader.instantiateFactory(SpringFactoriesLoader.java:227)
+	at org.springframework.core.io.support.SpringFactoriesLoader.load(SpringFactoriesLoader.java:206)
+	at org.springframework.boot.diagnostics.FailureAnalyzers.loadFailureAnalyzers(FailureAnalyzers.java:66)
+	at org.springframework.boot.diagnostics.FailureAnalyzers.<init>(FailureAnalyzers.java:61)
+	at org.springframework.boot.diagnostics.FailureAnalyzers.<init>(FailureAnalyzers.java:55)
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.springframework.core.io.support.SpringFactoriesLoader$FactoryInstantiator.instantiate(SpringFactoriesLoader.java:382)
+	at org.springframework.core.io.support.SpringFactoriesLoader.instantiateFactory(SpringFactoriesLoader.java:228)
+	at org.springframework.core.io.support.SpringFactoriesLoader.load(SpringFactoriesLoader.java:206)
+	at org.springframework.core.io.support.SpringFactoriesLoader.load(SpringFactoriesLoader.java:160)
+	at org.springframework.boot.SpringApplication.getSpringFactoriesInstances(SpringApplication.java:483)
+	at org.springframework.boot.SpringApplication.getExceptionReporters(SpringApplication.java:831)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:814)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.vaishnavi.practice.springboot.SpringBootLoggingApplication.main(SpringBootLoggingApplication.java:15)
+Caused by: java.lang.ClassNotFoundException: liquibase.exception.ChangeLogParseException
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:528)
+	... 24 common frames omitted
+23-04-2025 18:14:20.586 [main] TRACE o.s.b.diagnostics.FailureAnalyzers.lambda$logging$1 - Unable to instantiate factory class [org.springframework.boot.autoconfigure.jdbc.HikariDriverConfigurationFailureAnalyzer] for factory type [org.springframework.boot.diagnostics.FailureAnalyzer]
+java.lang.NoClassDefFoundError: org/springframework/jdbc/CannotGetJdbcConnectionException
+	at java.base/java.lang.Class.getDeclaredConstructors0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredConstructors(Class.java:3621)
+	at java.base/java.lang.Class.getConstructors(Class.java:2286)
+	at org.springframework.core.io.support.SpringFactoriesLoader$FactoryInstantiator.findConstructor(SpringFactoriesLoader.java:405)
+	at org.springframework.core.io.support.SpringFactoriesLoader$FactoryInstantiator.forClass(SpringFactoriesLoader.java:394)
+	at org.springframework.core.io.support.SpringFactoriesLoader.instantiateFactory(SpringFactoriesLoader.java:227)
+	at org.springframework.core.io.support.SpringFactoriesLoader.load(SpringFactoriesLoader.java:206)
+	at org.springframework.boot.diagnostics.FailureAnalyzers.loadFailureAnalyzers(FailureAnalyzers.java:66)
+	at org.springframework.boot.diagnostics.FailureAnalyzers.<init>(FailureAnalyzers.java:61)
+	at org.springframework.boot.diagnostics.FailureAnalyzers.<init>(FailureAnalyzers.java:55)
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+	at org.springframework.core.io.support.SpringFactoriesLoader$FactoryInstantiator.instantiate(SpringFactoriesLoader.java:382)
+	at org.springframework.core.io.support.SpringFactoriesLoader.instantiateFactory(SpringFactoriesLoader.java:228)
+	at org.springframework.core.io.support.SpringFactoriesLoader.load(SpringFactoriesLoader.java:206)
+	at org.springframework.core.io.support.SpringFactoriesLoader.load(SpringFactoriesLoader.java:160)
+	at org.springframework.boot.SpringApplication.getSpringFactoriesInstances(SpringApplication.java:483)
+	at org.springframework.boot.SpringApplication.getExceptionReporters(SpringApplication.java:831)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:814)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:345)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.vaishnavi.practice.springboot.SpringBootLoggingApplication.main(SpringBootLoggingApplication.java:15)
+Caused by: java.lang.ClassNotFoundException: org.springframework.jdbc.CannotGetJdbcConnectionException
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:528)
+	... 24 common frames omitted
+23-04-2025 18:14:20.612 [main] TRACE o.s.c.i.s.SpringFactoriesLoader.load - Loaded [org.springframework.boot.diagnostics.FailureAnalysisReporter] names: [org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter]
+23-04-2025 18:14:20.621 [main] DEBUG o.s.b.d.LoggingFailureAnalysisReporter.report - Application failed to start due to an exception
+org.springframework.boot.web.context.MissingWebServerFactoryBeanException: No qualifying bean of type 'org.springframework.boot.web.servlet.server.ServletWebServerFactory' available: Unable to start AnnotationConfigServletWebServerApplicationContext due to missing ServletWebServerFactory bean
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getWebServerFactory(ServletWebServerApplicationContext.java:216)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:186)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:619)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.vaishnavi.practice.springboot.SpringBootLoggingApplication.main(SpringBootLoggingApplication.java:15)
+23-04-2025 18:14:20.622 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter.report - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web application could not be started as there was no org.springframework.boot.web.servlet.server.ServletWebServerFactory bean defined in the context.
+
+Action:
+
+Check your application's dependencies for a supported servlet web server.
+Check the configured web application type.
+
