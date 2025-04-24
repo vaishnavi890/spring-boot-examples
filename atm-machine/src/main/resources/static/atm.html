@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ATM Machine</title>
+    <style>
+        body {
+            font-family: Arial;
+            padding: 20px;
+        }
+        input, button {
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+<h1>ATM Machine</h1>
+
+<h2>Create Account</h2>
+<input type="text" id="name" placeholder="Holder Name">
+<input type="number" id="initialBalance" placeholder="Initial Balance">
+<button onclick="createAccount()">Create</button>
+<p id="createResult"></p>
+
+<h2>Deposit</h2>
+<input type="number" id="depositAccount" placeholder="Account Number">
+<input type="number" id="depositAmount" placeholder="Amount">
+<button onclick="deposit()">Deposit</button>
+<p id="depositResult"></p>
+
+<h2>Withdraw</h2>
+<input type="number" id="withdrawAccount" placeholder="Account Number">
+<input type="number" id="withdrawAmount" placeholder="Amount">
+<button onclick="withdraw()">Withdraw</button>
+<p id="withdrawResult"></p>
+
+<h2>Check Balance</h2>
+<input type="number" id="balanceAccount" placeholder="Account Number">
+<button onclick="checkBalance()">Check</button>
+<p id="balanceResult"></p>
+
+<script>
+    const baseUrl = "http://localhost:8080/atm";
+
+    function createAccount() {
+        const name = document.getElementById("name").value;
+        const balance = document.getElementById("initialBalance").value;
+
+        fetch(`${baseUrl}/create`, {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ holderName: name, balance: balance })
+        })
+        .then(res => res.json())
+        .then(data => {
+            document.getElementById("createResult").innerText = `Account created! Account Number: ${data.accountNumber}`;
+        });
+    }
+
+    function deposit() {
+        const account = document.getElementById("depositAccount").value;
+        const amount = document.getElementById("depositAmount").value;
+
+        fetch(`${baseUrl}/deposit?accountNumber=${account}&amount=${amount}`, {
+            method: "PUT"
+        })
+        .then(res => res.json())
+        .then(data => {
+            document.getElementById("depositResult").innerText = `New Balance: ${data.balance}`;
+        });
+    }
+
+    function withdraw() {
+        const account = document.getElementById("withdrawAccount").value;
+        const amount = document.getElementById("withdrawAmount").value;
+
+        fetch(`${baseUrl}/withdraw?accountNumber=${account}&amount=${amount}`, {
+            method: "PUT"
+        })
+        .then(res => res.json())
+        .then(data => {
+            document.getElementById("withdrawResult").innerText = `New Balance: ${data.balance}`;
+        })
+        .catch(err => {
+            document.getElementById("withdrawResult").innerText = "Error: Insufficient balance or invalid account.";
+        });
+    }
+
+    function checkBalance() {
+        const account = document.getElementById("balanceAccount").value;
+
+        fetch(`${baseUrl}/balance?accountNumber=${account}`)
+        .then(res => res.text())
+        .then(data => {
+            document.getElementById("balanceResult").innerText = `Balance: ₹${data}`;
+        });
+    }
+</script>
+</body>
+</html>
