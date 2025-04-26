@@ -1,0 +1,9 @@
+com\vaishnavi\practice\spring\boot\controller\RoomController.class
+com\vaishnavi\practice\spring\boot\service\RoomService.class
+com\vaishnavi\practice\spring\boot\model\Student.class
+com\vaishnavi\practice\spring\boot\model\Room.class
+com\vaishnavi\practice\spring\boot\controller\StudentController.class
+com\vaishnavi\practice\spring\boot\service\StudentService.class
+com\vaishnavi\practice\spring\boot\HostelManagementSystemApplication.class
+com\vaishnavi\practice\spring\boot\repository\StudentRepository.class
+com\vaishnavi\practice\spring\boot\repository\RoomRepository.class

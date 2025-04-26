@@ -1,6 +1,6 @@
 package com.vaishnavi.practice.spring.boot.repository;
 
-import com.hostelmanagement.model.Student;
+import com.vaishnavi.practice.spring.boot.model.Student;
 import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.List;
 
