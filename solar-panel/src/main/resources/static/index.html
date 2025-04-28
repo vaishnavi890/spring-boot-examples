@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Solar Panel Management</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        input, button {
+            margin: 5px 0;
+            padding: 8px;
+            width: 300px;
+        }
+        table {
+            margin-top: 20px;
+            width: 90%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 12px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Solar Panel Management</h1>
+
+<h2>Add New Solar Panel</h2>
+<form id="solarForm">
+    <input type="text" id="panelName" placeholder="Panel Name" required><br>
+    <input type="text" id="location" placeholder="Location" required><br>
+    <input type="number" step="0.1" id="capacity" placeholder="Capacity (kW)" required><br>
+    <input type="text" id="status" placeholder="Status (Active/Inactive)" required><br>
+    <button type="submit">Add Panel</button>
+</form>
+
+<h2>Existing Panels</h2>
+<table id="solarTable">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Panel Name</th>
+        <th>Location</th>
+        <th>Capacity (kW)</th>
+        <th>Status</th>
+    </tr>
+    </thead>
+    <tbody>
+    <!-- Panels will be populated here -->
+    </tbody>
+</table>
+
+<script>
+    const apiBaseUrl = 'http://localhost:8080/api/panels';
+
+    // Fetch and display all panels
+    function fetchPanels() {
+        fetch(apiBaseUrl)
+            .then(response => response.json())
+            .then(data => {
+                const tableBody = document.querySelector('#solarTable tbody');
+                tableBody.innerHTML = '';
+                data.forEach(panel => {
+                    const row = `
+                        <tr>
+                            <td>${panel.id}</td>
+                            <td>${panel.panelName}</td>
+                            <td>${panel.location}</td>
+                            <td>${panel.capacity}</td>
+                            <td>${panel.status}</td>
+                        </tr>
+                    `;
+                    tableBody.innerHTML += row;
+                });
+            })
+            .catch(error => console.error('Error fetching panels:', error));
+    }
+
+    // Add new panel
+    document.getElementById('solarForm').addEventListener('submit', function (e) {
+        e.preventDefault();
+
+        const newPanel = {
+            panelName: document.getElementById('panelName').value,
+            location: document.getElementById('location').value,
+            capacity: document.getElementById('capacity').value,
+            status: document.getElementById('status').value
+        };
+
+        fetch(apiBaseUrl, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(newPanel)
+        })
+        .then(response => {
+            if (response.ok) {
+                alert('Solar Panel added successfully!');
+                fetchPanels();
+                document.getElementById('solarForm').reset();
+            } else {
+                alert('Failed to add panel.');
+            }
+        })
+        .catch(error => console.error('Error adding panel:', error));
+    });
+
+    // Load panels when page loads
+    window.onload = fetchPanels;
+</script>
+
+</body>
+</html>
