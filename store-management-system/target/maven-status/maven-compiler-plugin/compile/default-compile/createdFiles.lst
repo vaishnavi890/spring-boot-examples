@@ -1,0 +1,6 @@
+com\vaishnavi\practice\spring\boot\service\ProductService.class
+com\vaishnavi\practice\spring\boot\StoreManagementApplication.class
+com\vaishnavi\practice\spring\boot\repository\ProductRepository.class
+com\vaishnavi\practice\spring\boot\model\ProductUpdate.class
+com\vaishnavi\practice\spring\boot\controller\ProductController.class
+com\vaishnavi\practice\spring\boot\model\Product.class
