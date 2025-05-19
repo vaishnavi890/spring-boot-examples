@@ -19,5 +19,8 @@ public class Training {
         this.duration = duration;
         this.prerequisite = prerequisite;
     }
+
+    public void setId(int i) {
+    }
 }
 

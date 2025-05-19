@@ -1,7 +1,7 @@
 package com.vaishnavi.practice.spring.boot.service;
 
 import com.vaishnavi.practice.spring.boot.model.Training;
-import com.vaishnavi.practice.spring.boot.repo.TrainingRepository;
+import com.vaishnavi.practice.spring.boot.repository.TrainingRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
