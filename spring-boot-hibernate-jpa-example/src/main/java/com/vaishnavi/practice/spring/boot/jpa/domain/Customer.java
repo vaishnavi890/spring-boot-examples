@@ -47,5 +47,34 @@ public class Customer {
         this.lastName = lastName;
         this.email = email;
     }
+
+    public Customer() {
+        
+    }
+
+    public Object getId() {
+        return null;
+    }
+
+    public Object getFirstName() {
+        return null;
+    }
+
+    public Object getLastName() {
+        return null;
+    }
+
+    public Object getEmail() {
+        return null;
+    }
+
+    public void setFirstName(Object firstName) {
+    }
+
+    public void setLastName(Object lastName) {
+    }
+
+    public void setEmail(Object email) {
+    }
 }
 
